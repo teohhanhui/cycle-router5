@@ -30,6 +30,10 @@
     "gulp-babel": "^5.2.0"
   },
   "dependencies": {
-    "router5": "^0.6.1"
+    "router5": "^0.6.1",
+    "rx": "^3.1.0"
+  },
+  "peerDependencies": {
+    "@cycle/core": "^3.0"
   }
 }
