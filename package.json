@@ -1,6 +1,6 @@
 {
   "name": "cycle-router5",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "A router driver for Cycle.js, based on Router5",
   "main": "dist/driver.js",
   "scripts": {
@@ -30,10 +30,10 @@
     "gulp-babel": "^5.2.0"
   },
   "dependencies": {
-    "router5": "^0.5.0",
-    "rx": "^3.1.0"
+    "router5": "^0.9.3",
+    "rx": "^3.0||^4.0"
   },
   "peerDependencies": {
-    "@cycle/core": "^3.0"
+    "@cycle/core": "^3.0||^4.0||^5.0||^6.0"
   }
 }
